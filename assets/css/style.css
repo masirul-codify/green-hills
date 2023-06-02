@@ -865,6 +865,28 @@ h6 {
   right: 0;
 }
 
+#hero_revna_400sqm{
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+  position: relative;
+  background: url("../img/buy-your-home/revna-400/hero-revna-400.jpg") top center;
+  background-size: cover;
+  position: relative; 
+  z-index: 99;
+  transition: 0.3s; 
+}
+
+#hero_revna_400sqm:before{
+  content: "";
+  background: #01010145;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 
 #hero .carousel-container {
   display: flex;
