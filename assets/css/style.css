@@ -460,8 +460,7 @@ h6 {
   position: relative;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
-  position: relative;
-  margin-bottom: -90px;
+  position: relative; 
   z-index: 99;
   transition: 0.3s;
 }
@@ -478,20 +477,19 @@ h6 {
 
 #hero_buy_your_land{
   width: 100%;
-  height: 80vh;
+  height: 60vh;
   overflow: hidden;
   position: relative;
   background: url("../img/hero_buy_your_land.jpg") top center;
   background-size: cover;
-  position: relative;
-  margin-bottom: -90px;
+  position: relative; 
   z-index: 99;
   transition: 0.3s;
 }
 
 #hero_buy_your_land:before{
   content: "";
-  background: #fdfffd45;
+  background: #01010145;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -513,7 +511,7 @@ h6 {
 
 #hero_financial:before{
   content: "";
-  background: #fdfffd45;
+  background: #01010145;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -535,7 +533,7 @@ h6 {
 
 #hero_who_we_are:before{
   content: "";
-  background: #fdfffd45;
+  background: #01010145;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -569,7 +567,7 @@ h6 {
 
 #hero_buy_your_home:before{
   content: "";
-  background: #fdfffd45;
+  background: #01010145;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -591,7 +589,7 @@ h6 {
 
 #hero_overview:before{
   content: "";
-  background: #fdfffd45;
+  background: #00000045;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1296,7 +1294,7 @@ section {
 }
 
 .why-us .content {
-  padding: 60px 100px 0 100px;
+  padding: 60px 60px 0 60px;
 }
 
 .why-us .content h3 {
@@ -1311,7 +1309,7 @@ section {
 }
 
 .why-us .content p {
-  font-size: calc(15px + 0.390625vw);
+  font-size: calc(12px + 0.390625vw);
   color: #848484;
 }
 
@@ -1319,7 +1317,9 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 400px;
+  min-height: 350px;
+  margin-top: 10px;
+  margin-bottom: 10px; 
   position: relative;
 }
 
@@ -1337,7 +1337,7 @@ section {
 }
 
 .why-us .accordion-list li {
-  padding: 20px;
+  padding: 10px;
   background: #fff;
   border-radius: 4px;
 }
@@ -1346,7 +1346,7 @@ section {
   display: block;
   position: relative;
   font-family: "Poppins", sans-serif;
-  font-size: calc(12px + 0.390625vw);
+  font-size: calc(13px + 0.390625vw);
   line-height: 24px;
   font-weight: 500;
   padding-right: 30px;
@@ -1369,7 +1369,8 @@ section {
 }
 
 .why-us .accordion-list p {
-  margin-bottom: 0;
+  margin-bottom: 0; 
+  font-size: calc(12px + 0.390625vw);
   padding: 10px 0 0 0;
 }
 
