@@ -223,7 +223,7 @@ h6 {
   justify-content: space-between;
   padding: 0 3px;
   font-size: calc(10px + 0.390625vw);
-  color: rgba(42, 217, 26, 0.988);
+  color: rgba(27, 53, 24, 0.988);
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -467,7 +467,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: #059e2188;
+  background: #01010145;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1472,11 +1472,11 @@ section {
 
 @media (max-width: 992px) {
   .why-us .content {
-    padding-top: 30px;
+    padding-top: 10px;
   }
 
   .why-us .accordion-list {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
   }
 }
 
